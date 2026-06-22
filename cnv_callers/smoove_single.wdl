@@ -29,7 +29,7 @@ task RunSmoove {
 
     File ref_fasta = "gs://iu-share-loni-2/ref/Homo_sapiens_assembly38.fasta"
     File ref_fai = "gs://iu-share-loni-2/ref/Homo_sapiens_assembly38.fasta.fai"
-    File exclude_bed = "gs://intermed-files-wb-strong-apple-3019/resources/exclude.cnvnator_100bp.GRCh38.20170403"
+    File exclude_bed = "gs://intermed-files-wb-strong-apple-3019/resources/exclude.cnvnator_100bp.GRCh38.20170403.bed"
   }
 
   command <<<
