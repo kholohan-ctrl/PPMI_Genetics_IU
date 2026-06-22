@@ -51,8 +51,8 @@ task RunSmoove {
 
   output {
     File vcf = "out/~{sample}-smoove.genotyped.vcf.gz"
-    File vcf_index = "out/~{sample_id}-smoove.genotyped.vcf.gz.csi"
-    File lumpy_cmd = "out/~{sample_id}-lumpy-cmd.sh"
+    File vcf_index = "out/~{sample}-smoove.genotyped.vcf.gz.csi"
+    File lumpy_cmd = "out/~{sample}-lumpy-cmd.sh"
   }
 
   runtime {
