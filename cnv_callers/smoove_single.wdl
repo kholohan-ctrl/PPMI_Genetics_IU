@@ -5,6 +5,9 @@ workflow SmooveSingle {
     String sample
     File cram
     File cram_index
+
+    String memory = "8G"
+    Int disk_gb = 100
   }
 
   call RunSmoove {
@@ -12,6 +15,8 @@ workflow SmooveSingle {
       sample = sample,
       cram = cram,
       cram_index = cram_index,
+      memory = memory, 
+      disk_gb = disk_gb
   }
 
   output {
@@ -26,6 +31,9 @@ task RunSmoove {
     String sample
     File cram
     File cram_index
+
+    String memory
+    Int disk_gb
 
     File ref_fasta = "gs://iu-share-loni-2/ref/Homo_sapiens_assembly38.fasta"
     File ref_fai = "gs://iu-share-loni-2/ref/Homo_sapiens_assembly38.fasta.fai"
@@ -58,7 +66,7 @@ task RunSmoove {
   runtime {
     docker: "brentp/smoove"
     cpu: 1
-    memory: "8G"
-    disks: "local-disk 100 HDD"
+    memory: memory
+    disks: "local-disk " + disk_gb + " HDD"
   }
 }
