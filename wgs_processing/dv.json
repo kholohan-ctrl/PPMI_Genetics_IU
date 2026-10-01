@@ -1,0 +1,22 @@
+{
+  "DeepVariant.DynamicallyCombineIntervals.max_retries": "DeepVariant.DynamicallyCombineIntervals.max_retries",
+  "DeepVariant.DynamicallyCombineIntervals.preemptible_tries": "DeepVariant.DynamicallyCombineIntervals.preemptible_tries",
+  "DeepVariant.preemptible_tries": "DeepVariant.preemptible_tries",
+  "DeepVariant.sex": "DeepVariant.sex",
+  "DeepVariant.PAR_region": "DeepVariant.PAR_region",
+  "DeepVariant.unpadded_intervals_file": "DeepVariant.unpadded_intervals_file",
+  "DeepVariant.dbSNP_vcf": "DeepVariant.dbSNP_vcf",
+  "DeepVariant.dbSNP_vcf_index": "DeepVariant.dbSNP_vcf_index",
+  "DeepVariant.dict": "DeepVariant.dict",
+  "DeepVariant.ref_dict": "DeepVariant.ref_dict",
+  "DeepVariant.referenceFasta": "DeepVariant.referenceFasta",
+  "DeepVariant.referenceFastaIndex": "DeepVariant.referenceFastaIndex",
+  "DeepVariant.wgs_calling_interval_list": "DeepVariant.wgs_calling_interval_list",
+  "DeepVariant.wgs_evaluation_interval_list": "DeepVariant.wgs_evaluation_interval_list",
+  "DeepVariant.input_cram_or_bam": "DeepVariant.input_cram_or_bam",
+  "DeepVariant.input_cram_or_bam_index": "DeepVariant.input_cram_or_bam_index",
+  "DeepVariant.sample_name": "DeepVariant.sample_name",
+  "DeepVariant.model_type": "DeepVariant.model_type",
+  "DeepVariant.known_indels_sites_VCFs": "DeepVariant.known_indels_sites_VCFs",
+  "DeepVariant.known_indels_sites_indices": "DeepVariant.known_indels_sites_indices"
+}
